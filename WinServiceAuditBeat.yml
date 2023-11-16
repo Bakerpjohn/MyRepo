@@ -1,5 +1,5 @@
 ---
-- hosts: vehicle
+- hosts: vehicle.idir.bcgov
 
   tasks: 
 
