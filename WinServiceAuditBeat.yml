@@ -1,0 +1,12 @@
+---
+- hosts: win 
+
+  tasks: 
+
+   - name: Start service Auditbeat
+
+     win_service:
+
+       name: Auditbeat
+
+       state: start
